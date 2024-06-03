@@ -1,0 +1,29 @@
+Key benefits of unit testing:
+- Catch bugs early in development 
+- Boost confidence in your code 
+- Write better, more maintainable JavaScript 
+  
+Topics:
+===
+• Introduction to Unit Testing
+What unit testing is
+What are its benefits
+What are the common arguments
+Unit testing in action
+Learn how to write basic tests and run them
+
+• Core Unit Testing Techniques and Best Practices
+Concepts like positive and negative testing, boundary testing, parameterized testing and so on
+
+• Breaking Dependencies with Mocks
+Use of mocks or fakes to isolate our code during testing, an important technique used in unit testing
+
+• Improve Code Quaility with Static Analysis Tools
+Some handy static analysis toolsk like eslint, preitter and typescript
+These tools help us elevate the quality of code and reduce the need for extensive test cases
+===
+
+Setting up the test environment:
+Node.js - nodejs.org
+Visual Studio Code - code.visualstuido.com
+
