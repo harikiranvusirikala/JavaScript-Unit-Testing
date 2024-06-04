@@ -40,3 +40,20 @@ Types of Testing:
 
 In general we need more Unit tests > Integration tests > E2E tests
 
+Testing Framework - A set of tools for writing and running tests
+It typically include
+• Test Runner - for executing tests
+• Assertion Libraries - to check if code behaves as expected
+• Mocking Tools - to replace certain modules with fakes simulating different scenarios
+• Coverage Tools - for measuring how much of the code is tested
+and many other tools
+
+Popular Frameworks:
+• Jest - Experimental support for ECMAScript Modules
+• Mocha
+• Jasmine
+* Vitest - Support ESM, TypeScript and JSX
+• Cypress
+• Playwright
+and many more
+
