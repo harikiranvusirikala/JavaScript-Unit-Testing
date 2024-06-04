@@ -64,3 +64,18 @@ Add "test": "vitest" in scripts section in package.json
 
 $ npm t (or npm test)
 
+describe to create group of test suites
+test/it to create test case
+except to verify the results
+
+Test code content
+Arrange - Setup our test environment including any necessary data or configuration
+Act - Perform the action we want to test
+Assert - Check the outcome to ensure that it matches our expectations
+
+First test in tests/intro.test.js
+
+Fore Error: Initiated Worker with invalid NODE_OPTIONS env variable: --openssl-legacy-provider is not allowed in NODE_OPTIONS
+➜ echo $NODE_OPTIONS
+--openssl-legacy-provider
+➜ unset NODE_OPTIONS
