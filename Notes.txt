@@ -2,7 +2,7 @@ Key benefits of unit testing:
 - Catch bugs early in development 
 - Boost confidence in your code 
 - Write better, more maintainable JavaScript 
-  
+
 Topics:
 ===
 • Introduction to Unit Testing
@@ -26,4 +26,17 @@ These tools help us elevate the quality of code and reduce the need for extensiv
 Setting up the test environment:
 Node.js - nodejs.org
 Visual Studio Code - code.visualstuido.com
+
+Benefits:
+• Detect Bugs Early
+• Facilitates Refactoring
+• Improve Code Quaility
+• Documenatation
+
+Types of Testing:
+• Unit Tests - individual component
+• Integration Tests - group of component and their data flow
+• End-to-end Tests - whole application
+
+In general we need more Unit tests > Integration tests > E2E tests
 
