@@ -57,3 +57,10 @@ Popular Frameworks:
 • Playwright
 and many more
 
+Setting up Vitest:
+$ npm i -D vitest	// DevDependcy not going to deployed with the application
+
+Add "test": "vitest" in scripts section in package.json
+
+$ npm t (or npm test)
+
