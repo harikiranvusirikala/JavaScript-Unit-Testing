@@ -79,3 +79,27 @@ Fore Error: Initiated Worker with invalid NODE_OPTIONS env variable: --openssl-l
 ➜ echo $NODE_OPTIONS
 --openssl-legacy-provider
 ➜ unset NODE_OPTIONS
+
+Ways to write tests:
+• Code First - write code first, then write tests
+• Test First - vice versa - known as Test-driven Development(TDD)
+
+Test-driven Development(TDD):
+• Start by writing a filing test.
+• Write just enought code to make the test pass.
+• Refactor if necessary.
+
+code for test1
+  return NaN;
+
+code for test2
+  if(numbers.length === 0) return NaN;
+  return numbers[0];
+
+code for test3
+  if (numbers.length === 0) return NaN;
+  const sum = numbers.reduce((sum, current) => sum + current, 0)
+  return sum / numbers.length;
+
+TDD prevents us from over-engineering solutions.
+
