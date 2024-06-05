@@ -14,12 +14,12 @@ export function fizzBuzz(n) {
 export function calculateAverage(numbers) {
   if (numbers.length === 0) return NaN;
 
-  const sum = numbers.reduce((sum, current) => sum + current, 0)
+  const sum = numbers.reduce((sum, current) => sum + current, 0);
   return sum / numbers.length;
 }
 
 export function factorial(n) {
-  if (n < 0) return undefined
+  if (n < 0) return undefined;
   if (n === 0) return 1;
   return n * factorial(n - 1);
 }
