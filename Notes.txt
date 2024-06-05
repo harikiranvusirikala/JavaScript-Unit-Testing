@@ -103,3 +103,39 @@ code for test3
 
 TDD prevents us from over-engineering solutions.
 
+Test UI:
+===
+- https://vitest.dev/guide/ui.html
+$ npm i -D @vitest/ui
+
+Add in scripts section of package.json
+    "test:ui": "vitest --ui",
+
+$ npm run test:ui
+
+http://localhost:51204/__vitest__/
+
+
+Coverage:
+===
+- https://vitest.dev/guide/coverage#coverage-setup
+Add in scripts section of package.json
+    "coverage": "vitest run --coverage"
+
+setting coverage.enabled=true will display the results in Vitest UI.
+// vitest.config.ts
+===
+import { defineConfig } from 'vitest/config'
+
+export default defineConfig({
+  test: {
+    coverage: {
+      enabled: true,
+      reporter: ['text', 'json', 'html'],
+    },
+  },
+})
+===
+
+$ npm run coverage
+
