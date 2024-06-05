@@ -10,12 +10,17 @@
     "test": "vitest",
     "test:ui": "vitest --ui",
     "coverage": "vitest run --coverage.enabled --coverage.all --coverage.src='./src' --coverage.reporter='text-summary' --coverage.reporter='lcov'",
-    "format": "prettier . --write"
+    "format": "prettier . --write",
+    "lint": "eslint . --fix"
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.12.0",
+    "@typescript-eslint/parser": "^7.12.0",
     "@vitest/coverage-v8": "^1.6.0",
     "@vitest/ui": "^1.6.0",
+    "eslint": "^9.4.0",
     "prettier": "^3.3.0",
+    "typescript": "^5.4.5",
     "vite": "^5.0.0",
     "vitest": "^1.6.0"
   },

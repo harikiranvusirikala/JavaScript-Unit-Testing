@@ -152,3 +152,22 @@ $ npm i -D prettier
 
 $ npm run format
 
+
+ESLint:
+===
+Used to identify potential errors and stylistic issues in JavaScript code.
+
+$ npm i -D eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser typescript
+
+From ESLint v9.0.0, the default configuration file is now "eslint.config.js".
+If you are using a ".eslintrc.* file", please follow the migration guide to update your configuration file to the new format:
+- https://eslint.org/docs/latest/use/configure/migration-guide
+
+Used following for above migration
+$ npx @eslint/migrate-config .eslintrc.json
+
+In scripts
+"lint": "eslint . --fix"
+
+$ npm run lint
+
