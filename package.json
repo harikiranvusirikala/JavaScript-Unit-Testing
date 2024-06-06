@@ -11,7 +11,8 @@
     "test:ui": "vitest --ui",
     "coverage": "vitest run --coverage.enabled --coverage.all --coverage.src='./src' --coverage.reporter='text-summary' --coverage.reporter='lcov'",
     "format": "prettier . --write",
-    "lint": "eslint . --fix"
+    "lint": "eslint . --fix",
+    "prepare": "husky"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^7.12.0",
@@ -19,6 +20,7 @@
     "@vitest/coverage-v8": "^1.6.0",
     "@vitest/ui": "^1.6.0",
     "eslint": "^9.4.0",
+    "husky": "^9.0.11",
     "lint-staged": "^15.2.5",
     "prettier": "^3.3.0",
     "typescript": "^5.4.5",

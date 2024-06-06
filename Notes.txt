@@ -181,3 +181,20 @@ Executes when we do git commit.
 
 $ npm i -D lint-staged
 
+
+husky:
+===
+Modern native git hooks made easy
+Husky enhances your commits and more 🐶 woof!
+Automatically lint your commit messages, code, and run tests upon committing or pushing.
+
+- https://typicode.github.io/husky/get-started.html
+
+$ npm i -D husky
+
+$ npx husky init
+
+Try
+$ git commit -m "Keep calm and commit"
+# test script will run every time you commit
+
