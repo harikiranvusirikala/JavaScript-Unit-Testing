@@ -19,6 +19,7 @@
     "@vitest/coverage-v8": "^1.6.0",
     "@vitest/ui": "^1.6.0",
     "eslint": "^9.4.0",
+    "lint-staged": "^15.2.5",
     "prettier": "^3.3.0",
     "typescript": "^5.4.5",
     "vite": "^5.0.0",

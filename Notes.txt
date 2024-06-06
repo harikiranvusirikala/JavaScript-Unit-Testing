@@ -171,3 +171,13 @@ In scripts
 
 $ npm run lint
 
+
+lint-staged:
+===
+Run linters against staged git files and don't let 💩 slip into your code base!
+Executes when we do git commit.
+
+- https://www.npmjs.com/package/lint-staged
+
+$ npm i -D lint-staged
+
